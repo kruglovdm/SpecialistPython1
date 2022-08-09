@@ -20,7 +20,17 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+n = int(input("n: "))
+i = 0
+count = 0
+while i < n:
+    i += 1
+    i1 = 0
+    while i1 < i:
+        count = count + i
+        i1 = i1 + 1
+
+print('count', count)
 ```
 
 ---
