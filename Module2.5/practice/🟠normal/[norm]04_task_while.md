@@ -22,7 +22,24 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+n = int(input("n: "))
+
+i = 0
+
+while i < n:
+
+    i += 1
+    i1 = 1
+
+    str_i = '1'
+
+    while i1 < i:
+
+        i1 = i1 + 1
+        str_i = str_i + str(i1)
+
+
+    print(str_i)
 ```
 
 ---
