@@ -18,7 +18,25 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+
+x = int(input("Целое четырехзначное число: "))
+
+x1 = x % 10
+x2 = x % 100
+x3 = x2 // 10
+x4 = int(str(x1) + str(x3))
+x5 = x // 100
+
+if x4 == x5:
+    print("Да")
+else:
+    print("Нет")
+
+#print(x1)
+#print(x2)
+#print(x3)
+#print(x4)
+#print(x5)
 ```
 
 ---
