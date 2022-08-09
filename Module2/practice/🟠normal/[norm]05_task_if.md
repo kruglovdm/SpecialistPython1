@@ -15,7 +15,18 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+number = int(input("number: "))
+
+if (2 >= number > 0) or number == 12:
+    print("Зима")
+elif number <= 5:
+    print("Весна")
+elif number <= 8:
+    print("Лето")
+elif number <= 11:
+    print("Осень")
+else:
+    print("Номер месяца введен некорректно")
 ```
 
 ---
